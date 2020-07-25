@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    justify-content: center
+}
+form {
+    border: 1px solid palegreen;
+    display: grid;
+    place-items: center center;
+    padding: 3rem;
+    background-image: url(./images/steph.jpg);
+    background-size: 100%;
+}
+
+.Picture-url,
+.cook,
+.difficulty,
+.time,
+.ingredients,
+.steps,
+.recipe-name {
+    display: grid;
+    gap: 1rem;
+}
+
+h1 {
+    color: mediumvioletred;
+}
+
+label {
+    font-weight: 700;
+    font-size: 1rem;
+    color: ;
+}
