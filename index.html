@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onja Cookkbook</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <form action="#form_text" id="form_text">
+      <h1>Onja Cookbook</h1>
+      <div class="container">
+        <div class="recipe-name">
+          <label>What's the recipe name?</label>
+          <input class="recipe" type="text" id="recipe-input" name="name" placeholder="enter the recipe name"
+            required />
+        </div>
+
+        <div class="Picture-url">
+          <label>Picture of the result(URL)</label>
+          <input class="url" type="text" id="picture-of-url" name="name" placeholder="Enter the url" required />
+        </div>
+
+        <div class="cook">
+          <label>Who is the cook?</label>
+          <input class="cook-input" type="text" id="cook" name="name" placeholder="Enter the cook's name" required />
+        </div>
+
+        <div class="difficulty">
+          <label>What's the difficulty?</label>
+          <select name="choice">
+            <option value="easy">Easy</option>
+
+            <option value="medium">Medium</option>
+            <option value="difficult">Difficult</option>
+            <option value="too hard">Too hard</option>
+          </select>
+        </div>
+
+        <div class="time">
+          <label>Ho much time does it take?</label>
+          <select name="choices">
+            <option value="less than 15min">Less than 15min</option>
+            <option value="30 min">30 min</option>
+            <option value="an hour">An hour</option>
+            <option value="more than an hour">More than an hour</option>
+          </select>
+        </div>
+
+        <div class="addIngredient">
+          <!--add ingredient here -->
+        </div>
+        <div class="ingredients">
+          <label>Ingredient</label>
+          <div class="newIngredient">
+            <input class="ingredient" type="text" id="ingredient" name="name"/>
+          </div>
+        </div>
+        <button class="ingredient-button">Add a new ingredient to the list</button>
+
+        <div class="steps">
+          <label>Steps</label>
+          <input class="step-input" type="text" id="step" name="name" placeholder="Give the steps" required />
+        </div>
+        <div class="steps">
+          <label>Steps</label>
+          <input class="step-input" type="text" id="step" name="name" placeholder="Give the steps" required />
+        </div>
+
+        <button class="step-buttotn">Add a new step to the list</button>
+
+        <button class="submit-button">Submit</button>
+
+      </div>
+    </form>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
