@@ -12,7 +12,7 @@ form {
     display: grid;
     place-items: center center;
     padding: 3rem;
-    background-image: url(./images/steph.jpg);
+    background-image: url(./images/cookbook.jpg);
     background-size: 100%;
 }
 
@@ -24,7 +24,11 @@ form {
 .steps,
 .recipe-name {
     display: grid;
-    gap: 1rem;
+    padding: 1rem;
+}
+
+input {
+    padding-block-end: 1rem;
 }
 
 h1 {
@@ -34,7 +38,6 @@ h1 {
 label {
     font-weight: 700;
     font-size: 1rem;
-    color: ;
 }
 
 .ingredients,
@@ -42,6 +45,10 @@ label {
     padding-block-start: 16px;
 }
 
+.ingredient-button,
+.add-steps {
+    margin-inline-start: 1rem;
+}
 .submit-button {
     margin: 16px;
     background-color: mediumturquoise;
