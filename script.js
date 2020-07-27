@@ -35,7 +35,7 @@ const handleSubmitBtn = event => {
         const form = event.target;
         const { title, picture, difficulty, timing, ingredients, steps } = form;
 
-        const formHTML = `
+        const formHTML = ``;
 
     };
 };
